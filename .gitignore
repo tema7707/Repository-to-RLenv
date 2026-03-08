@@ -26,8 +26,6 @@ htmlcov/
 # Local project caches
 .uv-cache/
 
-# Local outputs
-outputs/
 
 # Notebook checkpoints
 .ipynb_checkpoints/
