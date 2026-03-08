@@ -1,4 +1,4 @@
-# Repo2Env
+# Repository-to-RLenv Public
 
 Repository-to-RLenv turns a Python repo into a live RL coding environment.
 
