@@ -1,8 +1,8 @@
 # Repo2Env
 
-Repo2Env turns a Python repo into a live RL coding environment.
+Repository-to-RLenv turns a Python repo into a live RL coding environment.
 
-![Repo2Env UI](media/header.png)
+![Repository-to-RLenv UI](media/header.png)
 
 ## Install
 
