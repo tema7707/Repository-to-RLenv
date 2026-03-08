@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "repo2env"
+version = "0.1.0"
+description = "Turn small Python repositories into rewardable coding environments."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "fastmcp>=3.1.0",
+  "openenv-core==0.2.1",
+  "pytest>=8.0",
+  "uvicorn>=0.41.0",
+]
+
+[project.scripts]
+repo2env-demo = "repo2env.app.demo:main"
+repo2env-infer = "repo2env.app.inference:main"
+repo2env-mcp = "repo2env.mcp.server:main"
+repo2env-openenv-server = "repo2env.openenv.server:main"
+repo2env-smoke-test = "repo2env.app.smoke_test:main"
+repo2env-train-stub = "repo2env.app.training_stub:main"
+server = "repo2env.openenv.server:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["repo2env*"]

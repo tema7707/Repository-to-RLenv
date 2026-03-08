@@ -1,0 +1,7 @@
+spec_version: 1
+name: repo2env
+type: space
+runtime: fastapi
+app: repo2env.openenv.server:app
+port: 8000
+
