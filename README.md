@@ -81,6 +81,12 @@ AUTOMATIC: openenv push
 HF Space with live RL env
 ```
 
+## Training
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tema7707/Repository-to-RLenv/blob/main/notebooks/repo2env_grpo_training.ipynb)
+
+Minimal GRPO training script using Unsloth + TRL on collected Repo2Env trajectories. Runs on a free T4 GPU in Google Colab.
+
 ## Live Collection
 
 - [Repository to RLEnv collection](https://huggingface.co/collections/tema7707/repository-to-rlenv)
