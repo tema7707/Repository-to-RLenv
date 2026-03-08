@@ -28,7 +28,6 @@ htmlcov/
 
 # Local outputs
 outputs/
-media/
 
 # Notebook checkpoints
 .ipynb_checkpoints/
